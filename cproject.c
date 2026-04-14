@@ -17,8 +17,13 @@ struct Student{
     double height;
     double weight;
     int age;
+    
+    //we will add bmi and status soon, here
 };
 /*
+logs alada rakhle valo hobe ig , logs student er modde include korle view students fuction 
+edit korte hobe, vies students er moddhe logs thakbe na, logs 
+sudhu details er moddhe thakbe
 struct Logs{
     int id;
     int cal;
@@ -69,11 +74,10 @@ if(student == NULL){
 }
 
 struct Student s;
-printf("\nEnter Student's Name : ");
-scanf("%s",s.name);
 printf("\nEnter the Student id: ");
 scanf("%d",&s.id);
-
+printf("\nEnter Student's Name : ");
+scanf("%s",s.name);
 printf("\nEnter student's age : ");
 scanf("%d",&s.age);
 printf("\nEnter student's height in cm : ");
